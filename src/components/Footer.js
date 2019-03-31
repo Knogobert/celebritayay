@@ -6,6 +6,9 @@ import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import vimeo from '../img/social/vimeo.svg'
+import LogRocket from "logrocket"
+
+LogRocket.init("ar34ms/celebritayay")
 
 const Footer = class extends React.Component {
   render() {
