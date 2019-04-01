@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import LogRocket from "logrocket"
 
 LogRocket.init("ar34ms/celebritayay")
