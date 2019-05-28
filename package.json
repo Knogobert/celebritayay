@@ -6,7 +6,7 @@
   "dependencies": {
     "bulma": "^0.7.0",
     "gatsby": "^2.3.4",
-    "gatsby-image": "^2.0.23",
+    "gatsby-image": "^2.1.1",
     "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-netlify-cms": "^3.0.15",
     "gatsby-plugin-purgecss": "^3.1.0",
@@ -17,8 +17,8 @@
     "gatsby-remark-images": "^3.0.1",
     "gatsby-remark-relative-images": "^0.2.1",
     "gatsby-source-filesystem": "^2.0.26",
-    "gatsby-transformer-remark": "^2.3.4",
     "gatsby-transformer-sharp": "^2.1.19",
+    "gatsby-transformer-remark": "^2.3.12",
     "lodash": "^4.17.5",
     "lodash-webpack-plugin": "^0.11.4",
     "logrocket": "^0.6.20",

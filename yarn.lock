@@ -4911,9 +4911,9 @@ fsevents@^1.2.7:
     nan "^2.9.2"
     node-pre-gyp "^0.10.0"
 
-fstream@^1.0.0, fstream@^1.0.2:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/fstream/-/fstream-1.0.11.tgz#5c1fb1f117477114f0632a0eb4b71b3cb0fd3171"
+fstream@^1.0.0, fstream@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/fstream/-/fstream-1.0.12.tgz#4e8ba8ee2d48be4f7d0de505455548eae5932045"
   dependencies:
     graceful-fs "^4.1.2"
     inherits "~2.0.0"
@@ -4961,11 +4961,12 @@ gatsby-cli@^2.5.4:
     yargs "^12.0.5"
     yurnalist "^1.0.2"
 
-gatsby-image@^2.0.23:
-  version "2.0.34"
-  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.0.34.tgz#b4f33c3b9391d55fe2648fb629fee9db2d524a86"
+gatsby-image@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.1.1.tgz#bbaca556dd90083fbc59d492807d12fb06435c42"
   dependencies:
     "@babel/runtime" "^7.0.0"
+    object-fit-images "^3.2.4"
     prop-types "^15.6.1"
 
 gatsby-link@^2.0.16:
@@ -5139,11 +5140,12 @@ gatsby-telemetry@^1.0.4:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby-transformer-remark@^2.3.4:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.3.4.tgz#b3631ecc4cea6c4573105c4d3038bc59a7ae3c6a"
+gatsby-transformer-remark@^2.3.12:
+  version "2.3.12"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.3.12.tgz#04ba4497a0f779582b19ad7c55d373609beaefeb"
   dependencies:
     "@babel/runtime" "^7.0.0"
+    bluebird "^3.5.0"
     gray-matter "^4.0.0"
     hast-util-raw "^4.0.0"
     hast-util-to-html "^4.0.0"
@@ -5399,9 +5401,20 @@ glob-to-regexp@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz#8c5a1494d2066c570cc3bfe4496175acc4d502ab"
 
-glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@~7.1.1:
+glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2, glob@~7.1.1:
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.3.tgz#3960832d3f1574108342dafd3a67b332c0969df1"
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
+glob@^7.1.3:
+  version "7.1.4"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -8447,6 +8460,10 @@ object-copy@^0.1.0:
     copy-descriptor "^0.1.0"
     define-property "^0.2.5"
     kind-of "^3.0.3"
+
+object-fit-images@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/object-fit-images/-/object-fit-images-3.2.4.tgz#6c299d38fdf207746e5d2d46c2877f6f25d15b52"
 
 object-hash@^1.1.4:
   version "1.3.1"
@@ -11804,11 +11821,11 @@ tar-stream@^1.1.2, tar-stream@^1.5.2:
     xtend "^4.0.0"
 
 tar@^2.0.0:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/tar/-/tar-2.2.1.tgz#8e4d2a256c0e2185c6b18ad694aec968b83cb1d1"
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-2.2.2.tgz#0ca8848562c7299b8b446ff6a4d60cdbb23edc40"
   dependencies:
     block-stream "*"
-    fstream "^1.0.2"
+    fstream "^1.0.12"
     inherits "2"
 
 tar@^4, tar@^4.4.8:
