@@ -27,7 +27,7 @@
     "parcel-bundler": "^1.12.3",
     "prop-types": "^15.6.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4",
+    "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "uuid": "^3.2.1"
   },
