@@ -21,7 +21,7 @@
     "gatsby-transformer-remark": "^2.3.12",
     "lodash": "^4.17.5",
     "lodash-webpack-plugin": "^0.11.4",
-    "logrocket": "^0.6.20",
+    "logrocket": "^1.0.0",
     "netlify-cms": "^2.9.1",
     "node-sass": "^4.11.0",
     "parcel-bundler": "^1.12.3",
