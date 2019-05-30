@@ -7308,9 +7308,9 @@ loglevel@^1.4.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.1.tgz#e0fc95133b6ef276cdc8887cdaf24aa6f156f8fa"
 
-logrocket@^0.6.20:
-  version "0.6.20"
-  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-0.6.20.tgz#704c3a6670edec7e413f104910146604c4d974b4"
+logrocket@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-1.0.0.tgz#978238fa621702e963c86644006c9b4580eaf4f2"
 
 lokijs@^1.5.6:
   version "1.5.6"
