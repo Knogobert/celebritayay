@@ -19,7 +19,7 @@
     "gatsby-source-filesystem": "^2.0.26",
     "gatsby-transformer-sharp": "^2.1.19",
     "gatsby-transformer-remark": "^2.3.12",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.21",
     "lodash-webpack-plugin": "^0.11.4",
     "logrocket": "^1.0.0",
     "netlify-cms": "^2.9.1",
